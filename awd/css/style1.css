@@ -631,7 +631,7 @@ button:focus {
   pointer-events: none;
   font-size: 0.85em;
 }
-.content__item p {
+.content__item p, .content__item h3, .content__item blockquote {
   max-width: 1200px;
   margin: 1em auto;
   text-align: justify;
@@ -815,11 +815,20 @@ button:focus {
   text-align: center;
 }
 
-.reflection blockquote {
+.content__item blockquote {
+  text-align: center;
   padding: 0.25em;
   font-style: italic;
-  font-size: 1.45em;
+  font-size: 1.25em;
   line-height: 1.4;
+}
+
+.content__item blockquote::before {
+  content: '\201C';
+}
+
+.content__item blockquote::after {
+  content: '\201D';
 }
 
 #typed {
