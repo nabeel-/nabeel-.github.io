@@ -10,7 +10,7 @@
  */
 (function() {
 	
-	$("#typed").typed({strings:["bad.","magic.","powerful."],typeSpeed:200,backDelay:1500,loop:!0,contentType:"html",loopCount:!1});
+	$("#typed").typed({strings:["diverse.","useful.","powerful."],typeSpeed:200,backDelay:1500,loop:!0,contentType:"html",loopCount:!1});
 
 	var bodyEl = document.body,
 		docElem = window.document.documentElement,
