@@ -636,9 +636,6 @@ button:focus {
   margin: 1em auto;
   text-align: justify;
 }
-.content__item p:first-of-type {
-  font-size: 1.35em;
-}
 
 .content__item.content__item--show {
   height: auto;
