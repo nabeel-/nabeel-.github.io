@@ -1,0 +1,98 @@
+html, body {
+	background:#2a343d;
+	color:#fff;
+}
+
+header {
+	height: 65px;
+	background:rgba(255,255,255,.95);
+	color:#2a343d;
+}
+
+header img {
+	height:65px;
+	padding:10px 12px 10px 0;
+	vertical-align: top;
+	border-right:1px solid #2a343d;
+	float:left;
+}
+
+header h1 {
+	display: inline-block;
+	font-weight: 200;
+	font-size:26px;
+	line-height:65px;
+	margin:0;
+	margin-left:15px;
+	float: left;
+	vertical-align: top;
+}
+
+header nav {
+	display: inline-block;
+	float: right;
+}
+
+.container {
+	width:100%;
+}
+
+.search {
+	display: inline-block;
+	width:200px;
+	margin:0;
+	height:65px;
+	padding:15px 0 12px 15px;
+	float:right;
+}
+
+.search .glyphicon {
+	top:0;
+	color:#2a343d;
+}
+
+.kid {
+	width:100%;
+	height:80px;
+	margin:5px 0;
+}
+
+.kid #first {
+	font-size: 18px;
+}
+
+.kid #last {
+	font-size: 24px;
+}
+
+.fix-right {
+	position: absolute;
+	top: 20px;
+	right:25px;
+	font-size: 50px;
+	opacity: .5;
+	z-index: 9;
+}
+
+.u-center {
+	position: absolute;
+	left:calc(50% - 60px);
+	top:25px;
+}
+
+.u-center img {
+	height:40px;
+	vertical-align: middle;
+	opacity: .2;
+}
+
+.btn-success {
+	opacity: .5;
+	color: #2a343d;
+}
+
+.btn-warning {
+	text-shadow: 1px 1px rgb(116,116,116);
+}
+
+
